@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "db:migrate:deploy": "prisma migrate deploy",
+    "db:generate": "prisma generate",
     "dev": "next dev -H 0.0.0.0 -p 8080",
     "build": "next build",
     "start": "next start -H 0.0.0.0 -p 8080",
